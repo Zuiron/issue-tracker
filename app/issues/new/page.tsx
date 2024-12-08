@@ -1,12 +1,5 @@
 "use client";
-import {
-  Button,
-  CalloutRoot,
-  CalloutText,
-  Text,
-  TextArea,
-  TextField,
-} from "@radix-ui/themes";
+import { Button, CalloutRoot, CalloutText, TextField } from "@radix-ui/themes";
 import SimpleMDE from "react-simplemde-editor";
 import { useForm, Controller } from "react-hook-form";
 import axios from "axios";
