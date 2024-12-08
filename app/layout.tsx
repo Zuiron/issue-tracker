@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
       <body>
-        <Theme accentColor="amber" appearance="light" radius="medium">
+        <Theme accentColor="amber" radius="medium">
           <NavBar />
           <main className="p-5">{children}</main>
         </Theme>
