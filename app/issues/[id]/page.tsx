@@ -16,8 +16,6 @@ const IssueDetailPage = async ({ params }: Props) => {
 
   if (!issue) return notFound();
 
-  await delay(1000);
-
   return (
     //phones 1 column, otherwise 2
     <Grid columns={{ initial: "1", md: "2" }} gap="5">
